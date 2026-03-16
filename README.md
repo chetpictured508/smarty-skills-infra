@@ -45,7 +45,7 @@ Copy the `skills/context-infra/` directory into your OpenClaw skills folder.
 
 ```
 skills/context-infra/
-├── SKILL.md                    # Main skill (71 lines)
+├── SKILL.md                    # Main skill (70 lines)
 └── references/
     └── profile-format.md       # Loaded only during reflection
 ```

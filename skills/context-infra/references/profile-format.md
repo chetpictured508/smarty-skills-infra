@@ -1,4 +1,4 @@
-# Context Profile Format
+# Profile Format — Smarty Skills-Infra
 
 Rewrite `memory/context-infra/context-profile.md` entirely during each reflection.
 
