@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "mcp__mcp-registry__search_mcp_registry",
+      "Bash(gh auth status)",
+      "WebFetch(domain:yage.ai)",
+      "WebFetch(domain:github.com)",
+      "Bash(git config:*)",
+      "Bash(security find-generic-password:*)",
+      "Bash(gh repo:*)"
+    ]
+  }
+}

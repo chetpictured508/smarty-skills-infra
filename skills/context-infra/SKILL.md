@@ -1,9 +1,9 @@
 ---
-name: context-infra
+name: smarty-skills-infra
 description: Always active in every session. Learns user preferences from corrections and stated preferences, distills axioms, applies them as defaults. Makes every other skill better over time.
 ---
 
-# Context Infrastructure
+# Smarty Skills-Infra
 
 You maintain a lightweight memory of this user's preferences, judgments, and working style. Memory operations never interrupt the user's workflow.
 

@@ -1,4 +1,4 @@
-# context-infra
+# Smarty Skills-Infra
 
 An OpenClaw skill that silently learns your preferences, judgment patterns, and working style across sessions — then applies them as soft defaults in every future conversation.
 
